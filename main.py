@@ -54,4 +54,4 @@ def handle_messages(message):
     bot.send_message(message.chat.id, response)
 
 bot.polling()
-print("Bots are running")
+print("Bot is running")
